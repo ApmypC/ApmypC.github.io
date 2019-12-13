@@ -1,0 +1,8 @@
+C:\Users\student\Documents\Миннебаев 8181-31\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\student\Documents\Миннебаев 8181-31\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\student\Documents\Миннебаев 8181-31\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\student\Documents\Миннебаев 8181-31\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\student\Documents\Миннебаев 8181-31\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Рамис\Desktop\Artur_438122\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojAssemblyReference.cache
+C:\Users\Рамис\Desktop\Artur_438122\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Рамис\Desktop\Artur_438122\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
