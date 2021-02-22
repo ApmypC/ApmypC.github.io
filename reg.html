@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Artur_4381-22</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div>
+                <h2>Название компании</h2>
+                <h4>самая клевая компания</h4>
+            </div>
+            <div>
+                <p>+7(499)777-77-77</p>
+                <p>+7(499)777-77-77</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="auth.html">Вход в аккаунт</a></li>
+                <li><a href="reg.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Регистрация</legend>
+            <form action="#" method="POST">
+                <div>
+                    <input name="name" id="name" type="text" placeholder="Имя пользователя" required/>
+                </div>
+                <div>
+                    <input name="email" id="email" type="text" placeholder="Email" required />
+                </div>
+                <div>
+                    <input name="telephone" id="telephone" type="text" placeholder="Контактный номер" />
+                </div>
+                <div>
+                    <input name="password" id="password" type="password" placeholder="Пароль" required />
+                </div>
+                <div>
+                    <input name="password_confirm" id="password_confirm" type="password"
+                        placeholder="Подтвердите пароль" required/>
+                </div>
+                <div>
+                    <div>Дата рождения:</div>
+                    <input type="date" name="birthday" id="birthday"  required/>
+                </div>
+                <div>
+                    <div>Пол:</div>
+                    <div>
+                        <input type="radio" name="sex" id="male" required/>
+                        <label for="male">Мужской</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sex" id="female" />
+                        <label for="female">Женский</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sex" id="other" />
+                        <label for="other">Другое</label>
+                    </div>
+                    
+                </div>
+                <!-- гугл капча для красоты -->
+                <div style="width: 304px; height: 78px;">
+                    <div><iframe
+                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld2sf4SAAAAAKSgzs0Q13IZhY02Pyo31S2jgOB5&amp;co=aHR0cHM6Ly9wYXRyaWNraGxhdWtlLmdpdGh1Yi5pbzo0NDM.&amp;hl=ru&amp;v=pRiAUlKgZOMcFLsfzZTeGtOA&amp;size=normal&amp;cb=7v9sumze0z73"
+                            width="304" height="78" role="presentation" name="a-19uzxj3buoxb" frameborder="0"
+                            scrolling="no"
+                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe>
+                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                </div><iframe style="display: none;"></iframe></div>
+                <div>
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement">Я согласен с вашими условиями договора</label>
+                </div>
+                <input type="submit" value="Зарегистрироваться" required/>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <div>
+            <p>2012-2021 ЗАО "Компания"</p>
+            <address>info@name.ru</address>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>
+                <a href="#">Разработка сайта-</a>
+                Компания "Пиксель Плюс"
+            </p>
+        </div>
+    </footer>
+    <!-- js-скрипт гугл капчи -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+
+</html>
